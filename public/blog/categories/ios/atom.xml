@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iOS | Mobile Development]]></title>
+  <link href="http://mobile-dev.com/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://mobile-dev.com/"/>
+  <updated>2012-07-09T09:09:22-07:00</updated>
+  <id>http://mobile-dev.com/</id>
+  <author>
+    <name><![CDATA[Alex Koloskov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Morning Coffee #1]]></title>
+    <link href="http://mobile-dev.com/blog/2012/07/09/morning-coffee-number-1/"/>
+    <updated>2012-07-09T09:07:00-07:00</updated>
+    <id>http://mobile-dev.com/blog/2012/07/09/morning-coffee-number-1</id>
+    <content type="html"><![CDATA[<p><strong>Morning Coffee #1</strong></p>
+
+<ul>
+<li><strong><a href="https://github.com/mattt/cupertino">Cupertino:</a></strong> I'm a big fan of the command line (at least when we are talking about development), so when I see a new tool, that eliminates yet another necessity to tolerate some web-based UI, it makes my heart sing. <a href="http://mattt.me/"> Matt Thompson </a> (of <a href="http://inductionapp.com/">Induction</a> and <a href="https://github.com/AFNetworking/AFNetworking/"> AFNetworking </a> fame among other things) came up with <a href="https://github.com/mattt/cupertino">Cupertino</a> - command line tool/gem to automate things we normally do through the Apple's Developer Portal, like managing devices, certificates etc. This is a perfection:
+
+<ul>
+<li><code>$ ios devices:list</code></li>
+<li><code>$ ios devices:add "iPad 1"=abc123</code></li>
+<li><code>$ ios devices:add "iPad 2"=def456 "iPad 3"=ghi789 …</code></li>
+</ul>
+</li>
+<li><strong><a href="https://github.com/Lokaltog/vim-powerline">vim-powerline</a></strong>: I'm a big fan of Vim and I'm definitely going to post some Vim goodies in this blog almost daily, but I'd like to start with my recent discovery - <a href="https://github.com/Lokaltog/vim-powerline"> vim-powerline </a>.
+<img src="https://a248.e.akamai.net/camo.github.com/3ea0c5e8e1da9827156bdd3d4af028fc2502f6ea/687474703a2f2f692e696d6775722e636f6d2f78466d4f742e706e67" alt="" /><br/>
+It turns a standard Vim's status line into the prettiest thing ever, but also packed with the functionality. For me, two things are absolutely critical - it changes color when you change the editing mode, which makes it super-easy to figure out if you're in Normal or in Insert mode and it highlights your current pane, which alleviates my biggest pain with multiple panes (no pun intended) - I constantly lose track of what is my currently active pane. This little plugin cures both problems and does it with a style.
+The only caveat is that it requires special patched fonts to display all those fancy characters, so it's slightly less portable, but installation of those fonts takes about a minute and it looks so good, that I don't really care about this extra step.
+By the way, my own command line tools settings (aka 'dotfiles') are available <a href="https://github.com/xenocid/dotfiles">here</a>.</li>
+<li><strong><a href="http://www.codethinked.com/preparing-yourself-for-modern-javascript-development">Preparing Yourself for Modern JavaScript Development</a></strong>: Pretty good articles explaining how modern, complex JavaScript apps are composed. It's important, because there's a pretty big leap between understanding the basics of JavaScript that will allow you to read (and write) simple code snippets and ability to tackle some modern JS framework like <a href="http://emberjs.com/">Ember.js</a> or <a href="http://backbonejs.org/">Backbone</a>, let alone write something similar. This article is a good bridge between those two states.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
