@@ -4,7 +4,7 @@
   <title><![CDATA[Mobile Development]]></title>
   <link href="http://mobile-dev.com/atom.xml" rel="self"/>
   <link href="http://mobile-dev.com/"/>
-  <updated>2012-07-09T22:57:34-07:00</updated>
+  <updated>2012-07-11T23:25:58-07:00</updated>
   <id>http://mobile-dev.com/</id>
   <author>
     <name><![CDATA[Alex Koloskov]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Morning Coffee #3]]></title>
+    <link href="http://mobile-dev.com/blog/2012/07/11/morning-coffee-number-3/"/>
+    <updated>2012-07-11T22:54:00-07:00</updated>
+    <id>http://mobile-dev.com/blog/2012/07/11/morning-coffee-number-3</id>
+    <content type="html"><![CDATA[<ul>
+<li><strong>Most Important Debugging Trick for XCode</strong>: I was recently helping one of my co-workers to figure out
+some nasty exception in his iOS project and remembered a debugging trick,
+which is probably one of the most important ones iOS developer should know.
+In many cases, your app will crash with some exception, but stack trace will point to your
+UIApplicationMain and will not contain any information about where this exception
+was actually raised. Here&#8217;s how to get the proper stack trace.
+
+<ul>
+<li>Go to Breakpoints panel</li>
+<li>Press &#8216;+&#8217; sign on the bottom of it</li>
+<li>Select &#8216;Add exception breakpoint&#8217; and keep all settings at their defaults
+Now if you run your application again and reproduce the error conditions, when
+exception is raised, instead of being caught only by the top-level exception handler and
+lose all the relevant stack trace information, now it will stop at the breakpoint
+right at the place where exception was originally raised and pointing to the exact
+source of the problem. Enjoy.
+<img src="http://mobile-dev.com/images/xcode-exception-breakpoint-1.png" title="Add Exception Breakpoint Dialog" ></li>
+</ul>
+</li>
+<li><strong><a href="http://abitofcode.com/2012/07/cocos2d-useful-tools/">List of Useful Cocos2D Tools</a></strong>:
+Nice article mentioning bunch of tools that developers can use in their
+<a href="http://www.cocos2d-iphone.org/">Cocos2D-based</a> projects. Some of them are quite obvious
+and not really Cocos2D-related, like Photoshop or Audacity, but it mentions all that are really
+useful and important like <a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fspritehelper%252Fid416068717%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30">SpriteEditor</a>,
+<a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Flevelhelper%252Fid421740820%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30">LevelHelper</a>,
+<a href="http://www.codeandweb.com/texturepacker">TexturePacker</a>, <a href="http://www.mapeditor.org/">Tiled</a> etc.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Morning Coffee #2]]></title>
