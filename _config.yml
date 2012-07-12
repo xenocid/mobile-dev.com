@@ -4,7 +4,7 @@
 
 url: http://mobile-dev.com
 title: Mobile Development
-subtitle: Diary of the mobile developer
+subtitle: Diary of the Mobile Developer
 author: Alex Koloskov
 simple_search: http://google.com/search
 description:
@@ -93,7 +93,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-148477-4
 
 # Facebook Like
 facebook_like: false
