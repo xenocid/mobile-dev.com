@@ -4,7 +4,7 @@
   <title><![CDATA[Mobile Development]]></title>
   <link href="http://mobile-dev.com/atom.xml" rel="self"/>
   <link href="http://mobile-dev.com/"/>
-  <updated>2012-07-11T23:30:46-07:00</updated>
+  <updated>2012-07-12T10:08:24-07:00</updated>
   <id>http://mobile-dev.com/</id>
   <author>
     <name><![CDATA[Alex Koloskov]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Morning Coffee #4]]></title>
+    <link href="http://mobile-dev.com/blog/2012/07/12/morning-coffee-number-4/"/>
+    <updated>2012-07-12T09:17:00-07:00</updated>
+    <id>http://mobile-dev.com/blog/2012/07/12/morning-coffee-number-4</id>
+    <content type="html"><![CDATA[<ul>
+<li><strong><a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fpythonista%252Fid528579881%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" title="">Pythonista</a></strong>: Right now iPad is not a proper development platform for numerous reasons,
+including the awkwardness of typing code using the on-screen keyboard and Apple&#8217;s
+restrictive rules, but I definitely see the signs of improvement lately and over time I think
+we will see iPad as a viable tool for the &#8216;light-hearted&#8217; coding, i.e. experimentation,
+REPL-style code exploration and small-scale bug fixing/correction. Today I&#8217;d like to present you
+with another brick in the wall - <a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fpythonista%252Fid528579881%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" title="">Pythonista</a>
+is a wonderful and very powerful tool for writing Python code right on your iPad.
+<img src="http://mobile-dev.com/images/pythonista1.png" width="192" height="256"> <img src="http://mobile-dev.com/images/pythonista2.png" width="192" height="256"> <img src="http://mobile-dev.com/images/pythonista3.png" width="192" height="256"></li>
+<li><strong><a href="http://www.learn-cocos2d.com/2012/07/starting-point-train-game-freeform-tracks/">Making Train Games</a>:</strong>
+<a href="http://www.learn-cocos2d.com/">Steffen Itterheim</a> of <a href="http://www.learn-cocos2d.com/">Learn Cocos2D</a> and
+<a href="http://www.kobold2d.com/">Kobold2D</a> fame published a quite thought-provoking <a href="http://www.learn-cocos2d.com/2012/07/starting-point-train-game-freeform-tracks/">article</a>
+exploring different aspects of properly simulating train motion over curved railtracks. The article seems to be
+quite open-ended with a lot of work in progress and tons of links to other resources talking about train simulation,
+but if you&#8217;re interested in doing train-based game that&#8217;s a great starting point.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Morning Coffee #3]]></title>

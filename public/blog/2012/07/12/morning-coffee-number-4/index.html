@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Morning Coffee #3 - Mobile Development</title>
+  <title>Morning Coffee #4 - Mobile Development</title>
   <meta name="author" content="Alex Koloskov">
 
   
-  <meta name="description" content="Most Important Debugging Trick for XCode: I was recently helping one of my co-workers to figure out
-some nasty exception in his iOS project and &hellip;">
+  <meta name="description" content="Pythonista: Right now iPad is not a proper development platform for numerous reasons,
+including the awkwardness of typing code using the on-screen &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ some nasty exception in his iOS project and &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mobile-dev.com/blog/2012/07/11/morning-coffee-number-3">
+  <link rel="canonical" href="http://mobile-dev.com/blog/2012/07/12/morning-coffee-number-4">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -81,7 +81,7 @@ some nasty exception in his iOS project and &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Morning Coffee #3</h1>
+      <h1 class="entry-title">Morning Coffee #4</h1>
     
     
       <p class="meta">
@@ -97,7 +97,7 @@ some nasty exception in his iOS project and &hellip;">
   
 
 
-<time datetime="2012-07-11T22:54:00-07:00" pubdate data-updated="true">Jul 11<span>th</span>, 2012</time>
+<time datetime="2012-07-12T09:17:00-07:00" pubdate data-updated="true">Jul 12<span>th</span>, 2012</time>
         
       </p>
     
@@ -105,32 +105,20 @@ some nasty exception in his iOS project and &hellip;">
 
 
 <div class="entry-content"><ul>
-<li><strong>Most Important Debugging Trick for XCode</strong>: I was recently helping one of my co-workers to figure out
-some nasty exception in his iOS project and remembered a debugging trick,
-which is probably one of the most important ones iOS developer should know.
-In many cases, your app will crash with some exception, but stack trace will point to your
-UIApplicationMain and will not contain any information about where this exception
-was actually raised. Here&#8217;s how to get the proper stack trace.
-
-<ul>
-<li>Go to Breakpoints panel</li>
-<li>Press &#8216;+&#8217; sign on the bottom of it</li>
-<li>Select &#8216;Add exception breakpoint&#8217; and keep all settings at their defaults
-Now if you run your application again and reproduce the error conditions, when
-exception is raised, instead of being caught only by the top-level exception handler and
-lose all the relevant stack trace information, now it will stop at the breakpoint
-right at the place where exception was originally raised and pointing to the exact
-source of the problem. Enjoy.
-<img src="/images/xcode-exception-breakpoint-1.png" title="Add Exception Breakpoint Dialog" ></li>
-</ul>
-</li>
-<li><strong><a href="http://abitofcode.com/2012/07/cocos2d-useful-tools/">List of Useful Cocos2D Tools</a></strong>:
-Nice article mentioning bunch of tools that developers can use in their
-<a href="http://www.cocos2d-iphone.org/">Cocos2D-based</a> projects. Some of them are quite obvious
-and not really Cocos2D-related, like Photoshop or Audacity, but it mentions all that are really
-useful and important like <a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fspritehelper%252Fid416068717%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30">SpriteEditor</a>,
-<a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Flevelhelper%252Fid421740820%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30">LevelHelper</a>,
-<a href="http://www.codeandweb.com/texturepacker">TexturePacker</a>, <a href="http://www.mapeditor.org/">Tiled</a> etc.</li>
+<li><strong><a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fpythonista%252Fid528579881%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" title="">Pythonista</a></strong>: Right now iPad is not a proper development platform for numerous reasons,
+including the awkwardness of typing code using the on-screen keyboard and Apple&#8217;s
+restrictive rules, but I definitely see the signs of improvement lately and over time I think
+we will see iPad as a viable tool for the &#8216;light-hearted&#8217; coding, i.e. experimentation,
+REPL-style code exploration and small-scale bug fixing/correction. Today I&#8217;d like to present you
+with another brick in the wall - <a href="http://click.linksynergy.com/fs-bin/stat?id=Vg6WGCcESLE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fpythonista%252Fid528579881%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" title="">Pythonista</a>
+is a wonderful and very powerful tool for writing Python code right on your iPad.
+<img src="/images/pythonista1.png" width="192" height="256"> <img src="/images/pythonista2.png" width="192" height="256"> <img src="/images/pythonista3.png" width="192" height="256"></li>
+<li><strong><a href="http://www.learn-cocos2d.com/2012/07/starting-point-train-game-freeform-tracks/">Making Train Games</a>:</strong>
+<a href="http://www.learn-cocos2d.com/">Steffen Itterheim</a> of <a href="http://www.learn-cocos2d.com/">Learn Cocos2D</a> and
+<a href="http://www.kobold2d.com/">Kobold2D</a> fame published a quite thought-provoking <a href="http://www.learn-cocos2d.com/2012/07/starting-point-train-game-freeform-tracks/">article</a>
+exploring different aspects of properly simulating train motion over curved railtracks. The article seems to be
+quite open-ended with a lot of work in progress and tons of links to other resources talking about train simulation,
+but if you&#8217;re interested in doing train-based game that&#8217;s a great starting point.</li>
 </ul>
 
 </div>
@@ -155,12 +143,12 @@ useful and important like <a href="http://click.linksynergy.com/fs-bin/stat?id=V
   
 
 
-<time datetime="2012-07-11T22:54:00-07:00" pubdate data-updated="true">Jul 11<span>th</span>, 2012</time>
+<time datetime="2012-07-12T09:17:00-07:00" pubdate data-updated="true">Jul 12<span>th</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/cocos2d/'>Cocos2D</a>, <a class='category' href='/blog/categories/morning-coffee/'>Morning Coffee</a>, <a class='category' href='/blog/categories/ios/'>iOS</a>
+    <a class='category' href='/blog/categories/morning-coffee/'>Morning Coffee</a>
   
 </span>
 
@@ -169,7 +157,7 @@ useful and important like <a href="http://click.linksynergy.com/fs-bin/stat?id=V
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mobile-dev.com/blog/2012/07/11/morning-coffee-number-3/" data-via="" data-counturl="http://mobile-dev.com/blog/2012/07/11/morning-coffee-number-3/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mobile-dev.com/blog/2012/07/12/morning-coffee-number-4/" data-via="" data-counturl="http://mobile-dev.com/blog/2012/07/12/morning-coffee-number-4/" >Tweet</a>
   
   
   
@@ -178,10 +166,8 @@ useful and important like <a href="http://click.linksynergy.com/fs-bin/stat?id=V
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/07/09/morning-coffee-number-2/" title="Previous Post: Morning Coffee #2">&laquo; Morning Coffee #2</a>
+        <a class="basic-alignment left" href="/blog/2012/07/11/morning-coffee-number-3/" title="Previous Post: Morning Coffee #3">&laquo; Morning Coffee #3</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/07/12/morning-coffee-number-4/" title="Next Post: Morning Coffee #4">Morning Coffee #4 &raquo;</a>
       
     </p>
   </footer>
