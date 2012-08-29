@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Morning Coffee | Mobile Development]]></title>
   <link href="http://mobile-dev.com/blog/categories/morning-coffee/atom.xml" rel="self"/>
   <link href="http://mobile-dev.com/"/>
-  <updated>2012-08-29T13:53:34-07:00</updated>
+  <updated>2012-08-29T14:02:48-07:00</updated>
   <id>http://mobile-dev.com/</id>
   <author>
     <name><![CDATA[Alex Koloskov]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Morning Coffee #4]]></title>
-    <link href="http://mobile-dev.com/blog/2012/08/29/morning-coffee-number-4/"/>
+    <title type="html"><![CDATA[Morning Coffee #5]]></title>
+    <link href="http://mobile-dev.com/blog/2012/08/29/morning-coffee-number-5/"/>
     <updated>2012-08-29T13:51:00-07:00</updated>
-    <id>http://mobile-dev.com/blog/2012/08/29/morning-coffee-number-4</id>
+    <id>http://mobile-dev.com/blog/2012/08/29/morning-coffee-number-5</id>
     <content type="html"><![CDATA[<ul>
 <li>There's a new book <a href="http://openglinsights.com/">OpenGL Insights</a> , which is a collection of OpenGL-related articles (Game Programming Gems style, if you're familiar with that series). The Web site linked above has a Table of Contents and few sample chapters and it all looks pretty interesting for someone doing graphics programming. Unfortunately, the book is pretty pricey ($75) and as far as I can tell it's not available as an ebook through major ebook channels (Kindle, Nook or iBooks). It seems to be available as an eBook directly from the publisher, but instead of providing DRM-free PDF or something similar they seems to use <a href="http://www.safaribooksonline.com/">Safari</a>-style online system, which is not great if you want to read from your iPad. Hope that the publisher will actually sell it through Kindle later and price it down to at least $49.</li>
 <li>An <a href="http://buildnewgames.com/physics-engines-comparison">interesting article</a> comparing several different JavaScript Physics Engines and detailing various pros and cons. Frankly based on provided demos <a href="http://code.google.com/p/box2dweb/">Box2dWeb</a> looks like clear winner with rest of engines having problems with collision detection and some weird impulses, but still worth checking those different engines.</li>
